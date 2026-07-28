@@ -36,7 +36,7 @@ jobs:
       #max-parallel: 3
       matrix:
         CONFIG: [JDCloud-RE-SS-01]
-        SOURCE: [VIKINGYFY/immortalwrt]
+        SOURCE: [XiaoHaiSly/immortalwrt]
         BRANCH: [main]
 
     #调用公用编译核心WRT-CORE.yml
