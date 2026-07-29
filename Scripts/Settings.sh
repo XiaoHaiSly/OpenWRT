@@ -35,7 +35,7 @@ sed -i "s/hostname='.*'/hostname='$WRT_NAME'/g" $CFG_FILE
 mkdir -p ./files/etc/apk/keys ./files/etc/apk/repositories.d
 
 cat > ./files/etc/apk/repositories.d/substore.list <<EOF
-https://substore-openwrt.445568.xyz/openwrt-25.12/all/packages.adb
+https://substore-openwrt.pages.dev/openwrt-25.12/all/packages.adb
 EOF
 
 cat > ./files/etc/apk/keys/substore-apk.pem <<'EOF'
